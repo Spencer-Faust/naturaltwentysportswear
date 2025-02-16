@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "PoppinsRegular";
+  src: local("PoppinsRegular"),
+    url("./Fonts/Poppins/Poppins-Regular.ttf") format("opentype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "PoppinsSemiBold";
+  src: local("PoppinsSemiBold"),
+    url("./Fonts/Poppins/Poppins-SemiBold.ttf") format("opentype");
+}
+
+:root {
+  font-family: 'PoppinsSemiBold';
+  line-height: 1;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  /* color: rgba(255, 255, 255, 0.87); */
+  background-color: #242424;
+  background-image: url('https://images.squarespace-cdn.com/content/v1/624b3c6eebf64c6c885f6df4/1649097839854-WKSKQJ8J8ECNJAFLH854/20170619S1_Professional_Trainer_V_Stretch_145.jpg');
+  background-repeat: no-repeat;    
+  background-size: cover;
+  background-color: rgba(36,36,36,0.21);
+  background-blend-mode: darken;
+  /* -400px moves the background image a bit so it's not the top of the image */
+  background-position: center -325px; 
+  
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
