@@ -4,9 +4,9 @@ import './Header.css'
 import InstagramIcon from '@mui/icons-material/Instagram'
 import { Link } from '@mui/material';
 
-export const Header = () => (
+export const Header = ({isMobile}) => (
     <Box className='header-container'>
-        <Box className='header-title'>Natural Twenty Sportswear</Box>
+        <Box sx={{ fontSize: isMobile ? '' : '3rem' }}>Natural Twenty Sportswear</Box>
         <Link
             href='https://www.instagram.com/naturaltwentysportswear'
             target='_blank'
@@ -24,4 +24,4 @@ export const Header = () => (
             />
         </Link>
     </Box>
-)
+);

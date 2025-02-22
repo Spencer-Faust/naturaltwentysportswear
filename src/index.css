@@ -25,13 +25,23 @@
   background-color: rgba(36,36,36,0.21);
   background-blend-mode: darken;
   /* -400px moves the background image a bit so it's not the top of the image */
-  background-position: center -325px; 
   
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+@media (max-width : 1400px) {
+  :root {
+    background-position: center;
+  }
+}
+@media (min-width : 1400px) {
+  :root {
+    background-position: center -325px;
+  }
 }
 
 @media (prefers-color-scheme: light) {
