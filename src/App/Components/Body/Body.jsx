@@ -13,9 +13,15 @@ export const Body = ({isMobile}) => (
         //TODO: set up screen size conditional
         maxWidth: isMobile ? '85%' : '45%',
     }}>
-        <Box sx={{ fontSize: isMobile ? '1.25rem' : '3.5rem', paddingTop: isMobile ? '1rem' : '' }}>We'd love to hear from you!</Box>
+        <Box sx={{ fontSize: isMobile ? '1.25rem' : '3.5rem', paddingTop: isMobile ? '1rem' : '' }}>Hey there!</Box>
         <Box sx={{ fontSize: isMobile ? '1rem' : '1.25rem', marginTop: isMobile ? '1rem' : '2rem', maxWidth: '40rem', lineHeight: 1.5 }}>
-            Work side by side with an activewear professional! Schedule a call or fill out the form below to tell me all the nitty gritty deets about your brand and project goals. I'd love to help you bring your designs to life!  
+        I’m Stayce, a senior designer specializing in all things activewear!  
+        </Box>
+        <Box sx={{ fontSize: isMobile ? '1rem' : '1.25rem', marginTop: isMobile ? '1rem' : '2rem', maxWidth: '40rem', lineHeight: 1.5 }}>
+            Looking for an extra set of hands to help design your upcoming collection? 
+            Or need someone to get in detail on those pesky tech packs and help translate?
+            I love helping small to midsize brands bring their dreams to life, while staying in control of their product development! 
+            So if you’re looking for an activewear specialist, you found her!   
         </Box>
         <Link 
             href='https://calendly.com/naturaltwentysportswear/discoverycall?month=2025-02'
@@ -39,7 +45,8 @@ export const Body = ({isMobile}) => (
         <Box sx={{ padding: '1.75rem 3rem', display: 'flex', justifyContent: 'center' }}>Schedule a discovery call</Box>
         </Link>
         <Box sx={{ fontSize: isMobile ? '1rem' : '1.25rem', marginTop: isMobile ? '1rem' : '2rem', maxWidth: '40rem', lineHeight: 1.5  }}>
-            Have some more in depth questions before we chat? Drop them below and I'll get back to you in two days. I'm based in Minneapolis, Minnesota, US. Don't worry! I work with brands across the US + the globe.
+            Want answers to some of your questions before we chat? 
+            Drop them in the form below and I’ll get back to you in two biz days! 
         </Box>
         <DiscoveryForm isMobile={isMobile} />
     </Box>
