@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react()],
   optimizeDeps: { exclude: ["fsevents"] },
   build: {
-    base: process.env.NODE_ENV === 'production' ? '/reponame/' : '/',,
+    base: './',
   },
 })
