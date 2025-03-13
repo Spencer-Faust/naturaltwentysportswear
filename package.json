@@ -1,7 +1,7 @@
 {
   "name": "naturaltwentysportswear",
   "homepage": "https://spencer-faust.github.io/naturaltwentysportswear/",
-  "private": true,
+  "private": false,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
