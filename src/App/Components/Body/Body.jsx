@@ -8,7 +8,7 @@ export const Body = ({isMobile}) => (
         display: 'flex', 
         flexDirection: 'column',
         alignItems: 'center',
-        paddingRight: isMobile ? null : '3.5rem',
+        paddingRight: !isMobile && '3.5rem',
 
         //TODO: set up screen size conditional
         maxWidth: isMobile ? '85%' : '45%',
